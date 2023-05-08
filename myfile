@@ -6,3 +6,15 @@ ford
 bmw
 v
 audi
+changes made by f2
+<parent>
+    <groupId>com.baeldung.multimodulemavenproject</groupId>
+    <artifactId>multimodulemavenproject</artifactId>
+    <version>1.0</version>
+</parent>
+ 
+<groupId>com.baeldung.entitymodule</groupId>
+<artifactId>entitymodule</artifactId>
+<version>1.0</version>
+<packaging>jar</packaging>
+<name>entitymodule</name>
